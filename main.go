@@ -1,25 +1,40 @@
 package main
 
 import (
-	"fmt"
 	"github.com/gin-gonic/gin"
+	"github.com/spf13/viper"
 	"go_pro1/route"
 	"go_pro1/utils"
+	"os"
 )
 
 
 
 func main() {
+	InitConfig()
 	utils.BaseDB()
 	//defer db.Close() todo
 
-	fmt.Println("hello world")
 	r := gin.Default()
 
 	r = route.RouterCollect(r)
 
-	panic(r.Run(":8080"))
+	port := viper.GetString("server.port")
+
+	if port != "" {
+		panic(r.Run(":" + port))
+	}
+	panic(r.Run())
 }
 
-
+func InitConfig() {
+	workDir, _ := os.Getwd()
+	viper.SetConfigName("application")
+	viper.SetConfigType("yml")
+	viper.AddConfigPath(workDir + "/config")
+	err := viper.ReadInConfig()
+	if err != nil {
+		panic("err")
+	}
+}
 
