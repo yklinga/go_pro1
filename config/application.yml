@@ -10,3 +10,5 @@ datasource:
   password: Root.123
   charset: utf8
   parseTime: True
+test:
+  name: 11

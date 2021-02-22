@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5ce9c050-03d3-4709-8495-41da2fa1278a" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_pro1" beforeDir="false" afterPath="$PROJECT_DIR$/go_pro1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/route/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/database.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/jwt.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/jwt.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,10 +115,10 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="1762" y="324" width="1399" height="687" key="dock-window-1/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610502469665" />
-    <state x="1867" y="100" width="598" height="735" key="find.popup" timestamp="1613897211917">
+    <state x="1867" y="100" width="598" height="735" key="find.popup" timestamp="1613959404778">
       <screen x="1440" y="23" width="1920" height="1008" />
     </state>
-    <state x="1867" y="100" width="598" height="735" key="find.popup/0.23.1440.877/1440.23.1920.1008@1440.23.1920.1008" timestamp="1613897211917" />
+    <state x="1867" y="100" width="598" height="735" key="find.popup/0.23.1440.877/1440.23.1920.1008@1440.23.1920.1008" timestamp="1613959404778" />
     <state x="1953" y="208" width="894" height="823" key="search.everywhere.popup" timestamp="1613898300044">
       <screen x="1440" y="23" width="1920" height="1008" />
     </state>

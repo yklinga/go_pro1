@@ -1,1 +1,3 @@
-./go_pro1
+# disable to push to origin
+node_modules
+application.yml
