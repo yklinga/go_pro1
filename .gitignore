@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 /vue_pro/dist
-/config/
+/config/application.yml
 
 # local env files
 .env.local

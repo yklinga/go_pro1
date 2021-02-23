@@ -6,7 +6,7 @@ go + gin 登录注册体系
 # ./vue_pro
 
 前端展示页面
-vue 3.0 构建脚手架
+vue 2.0 构建脚手架
 
 # ./config/application.yml & ./utils/database.go
 

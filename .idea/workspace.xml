@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ce9c050-03d3-4709-8495-41da2fa1278a" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/views/Home.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
