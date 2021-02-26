@@ -6,12 +6,12 @@ import loginRouter from '../views/loginAbout/router'
 Vue.use(VueRouter)
 
 const routes = [
-  ...loginRouter,
   {
     path: '/',
     name: 'index',
     component: index
   },
+  ...loginRouter,
 ]
 
 const router = new VueRouter({
