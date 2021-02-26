@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5ce9c050-03d3-4709-8495-41da2fa1278a" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/CORSMiddleware.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_pro/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_pro1" beforeDir="false" afterPath="$PROJECT_DIR$/go_pro1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/route/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue_pro/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_pro/src/views/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_pro/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/utils/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/views/loginAbout/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/views/loginAbout/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/views/loginAbout/signin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/views/loginAbout/signin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/src/views/loginAbout/signup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/src/views/loginAbout/signup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_pro/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vue_pro/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +107,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

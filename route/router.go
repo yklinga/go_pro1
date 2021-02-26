@@ -7,6 +7,7 @@ import (
 )
 
 func RouterCollect(r * gin.Engine) * gin.Engine  {
+	r.Use(middleware.CORSMiddleware())
 	r.POST("/api/auth/register", api.Register)
 	r.POST("/api/auth/login", api.Login)
 	r.GET("/api/auth/userinfo", middleware.AuthMiddleware(), api.Userinfo)

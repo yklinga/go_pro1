@@ -13,10 +13,13 @@ import (
 
 func Register (ctx * gin.Context) {
 	DB := utils.GetDB()
+	var reqUser = model.User{}
+
+	ctx.Bind(&reqUser)
 	// 获取参数 username telephone password
-	username := ctx.PostForm("username")
-	telephone := ctx.PostForm("telephone")
-	password := ctx.PostForm("password")
+	username := reqUser.Username
+	telephone := reqUser.Telephone
+	password := reqUser.Password
 	// 数据验证
 	if len(telephone) != 11 {
 		response.ResCommon(ctx, http.StatusUnprocessableEntity, 422, nil, "手机号必须为11位")
@@ -52,15 +55,28 @@ func Register (ctx * gin.Context) {
 		Telephone: telephone,
 	}
 	DB.Create(&newUser)
+	// 发放token
+	token, err := utils.ReleaseToken(newUser)
+	if err != nil {
+		response.ResCommon(ctx, http.StatusInternalServerError, 500, nil, "系统异常")
+
+		log.Panicf("token generate error: %v", err)
+		return
+	}
 	//返回结果
-	response.Success(ctx, nil, "注册成功")
+	response.Success(ctx, gin.H{
+		"token": token,
+	}, "注册成功")
 }
 
 func Login (ctx * gin.Context) {
 	db := utils.GetDB()
+	var reqUser = model.User{}
+
+	ctx.Bind(&reqUser)
 	// 获取参数
-	telephone := ctx.PostForm("telephone")
-	password := ctx.PostForm("password")
+	telephone := reqUser.Telephone
+	password := reqUser.Password
 	// 数据验证
 	if len(telephone) != 11 {
 		response.ResCommon(ctx, http.StatusUnprocessableEntity, 422, nil, "手机号必须为11位")
@@ -91,12 +107,11 @@ func Login (ctx * gin.Context) {
 		log.Panicf("token generate error: %v", err)
 		return
 	}
+
 	// 返回结果
 	response.Success(ctx, gin.H{
-		"code": 200,
-		"data": gin.H{"token": token},
-		"msg": "登录成功",
-	}, "")
+		"token": token,
+	}, "登录成功")
 }
 
 func Userinfo(ctx * gin.Context)  {
